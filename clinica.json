@@ -1,0 +1,53 @@
+{
+    "usuarios": [
+        {
+            "identificacion": "0000",
+            "nombres": "Admin",
+            "apellidos": "Administrador",
+            "telefono": "555 000111",
+            "email": "admin@acmeclinic.com",
+            "direccion": "Cl 185 # 26 – 85",
+            "contrasena": "admin123"
+        },
+        {
+            "identificacion": "0",
+            "nombres": "0",
+            "apellidos": "",
+            "telefono": "0",
+            "email": "0@acmeclinic.com",
+            "direccion": "0",
+            "contrasena": "0"
+        },
+        {
+            "identificacion": "7",
+            "nombres": "7",
+            "apellidos": "7",
+            "telefono": "7",
+            "email": "7@acmeclinic.com",
+            "direccion": "7",
+            "contrasena": "7"
+        }
+    ],
+    "pacientes": [
+        {
+            "identificacion": "5",
+            "nombres": "5",
+            "apellidos": "5",
+            "telefono": "5",
+            "email": "5",
+            "direccion": "5",
+            "genero": "5",
+            "estado_civil": "5"
+        },
+        {
+            "identificacion": "9",
+            "nombres": "9",
+            "apellidos": "9",
+            "telefono": "9",
+            "email": "9",
+            "direccion": "9",
+            "genero": "9",
+            "estado_civil": "9"
+        }
+    ]
+}

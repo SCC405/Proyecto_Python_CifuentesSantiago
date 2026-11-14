@@ -1,0 +1,40 @@
+[
+    {
+        "fecha": "5",
+        "paciente": "5",
+        "medico_email": "7@acmeclinic.com",
+        "medico_nombres": "7",
+        "medico_apellidos": "7",
+        "sintomas": [
+            "tos"
+        ],
+        "diagnostico": "tos",
+        "medicamentos": [
+            {
+                "medicamento": "tos",
+                "cantidad": 5,
+                "dosis": "5",
+                "tiempo": 5
+            }
+        ]
+    },
+    {
+        "fecha": "9",
+        "paciente": "9",
+        "medico_email": "0@acmeclinic.com",
+        "medico_nombres": "0",
+        "medico_apellidos": "",
+        "sintomas": [
+            "pica"
+        ],
+        "diagnostico": "pica",
+        "medicamentos": [
+            {
+                "medicamento": "pica",
+                "cantidad": 1,
+                "dosis": "1",
+                "tiempo": 1
+            }
+        ]
+    }
+]
