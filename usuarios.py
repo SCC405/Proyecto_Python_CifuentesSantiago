@@ -37,6 +37,13 @@ def registrar_usuario():
     else:
         contrasena = input("Asigne una contraseña: ")
 
+        print("Rol: 1. Medico  2. Administrativo")
+        opcion_rol = input("Digite el rol: ")
+        if opcion_rol == "1":
+            rol = "medico"
+        else:
+            rol = "administrativo"
+
         usuario = {
             "identificacion": identificacion,
             "nombres": nombres,
@@ -44,9 +51,11 @@ def registrar_usuario():
             "telefono": telefono,
             "email": email,
             "direccion": direccion,
-            "contrasena": contrasena
+            "contrasena": contrasena,
+            "rol": rol
         }
 
+        #Se carga el JSON, se agrega el usuario y se guarda otra vez
         clinica = datos.cargar("clinica.json")
         clinica["usuarios"].append(usuario)
         datos.guardar("clinica.json", clinica)

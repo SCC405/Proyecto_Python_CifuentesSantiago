@@ -1,4 +1,4 @@
-#Modulo de pacientes
+
 
 import datos
 
@@ -38,6 +38,7 @@ def registrar_paciente():
             "estado_civil": estado_civil
         }
 
+        #Se carga el JSON, se agrega el paciente y se guarda otra vez
         clinica = datos.cargar("clinica.json")
         clinica["pacientes"].append(paciente)
         datos.guardar("clinica.json", clinica)

@@ -1,4 +1,4 @@
-#Modulo de diagnosticos
+
 
 import datos
 import pacientes

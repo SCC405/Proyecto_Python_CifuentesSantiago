@@ -1,9 +1,10 @@
-#Programa principal - Clinica ACME
+
 
 import usuarios
 import pacientes
 import diagnosticos
 import historia
+import reportes
 
 print("===== CLINICA ACME =====")
 
@@ -27,7 +28,8 @@ while True:
     2. Registrar paciente
     3. Diagnosticar paciente
     4. Historia clinica
-    5. Salir
+    5. Reporte de carga de medicos
+    6. Salir
     """)
 
     try:
@@ -44,6 +46,8 @@ while True:
     elif opcion == 4:
         historia.historia_clinica()
     elif opcion == 5:
+        reportes.reporte_carga_medicos()
+    elif opcion == 6:
         break
     else:
         print("Error digite de nuevo")

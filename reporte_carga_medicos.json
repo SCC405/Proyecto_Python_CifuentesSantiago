@@ -1,0 +1,25 @@
+{
+    "medicos": [
+        {
+            "id_medico": "7",
+            "nombre_completo": "7 7",
+            "total_diagnosticos": 2,
+            "pacientes_distintos": 2,
+            "promedio_sintomas_por_consulta": 1.0,
+            "promedio_medicamentos_por_consulta": 1.0
+        },
+        {
+            "id_medico": "0",
+            "nombre_completo": "0 ",
+            "total_diagnosticos": 1,
+            "pacientes_distintos": 1,
+            "promedio_sintomas_por_consulta": 1.0,
+            "promedio_medicamentos_por_consulta": 1.0
+        }
+    ],
+    "resumen": {
+        "mayor_numero_diagnosticos": "7 7",
+        "mayor_numero_pacientes": "7 7",
+        "menor_carga": "0 "
+    }
+}

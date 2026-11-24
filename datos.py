@@ -1,9 +1,11 @@
-#Modulo de datos
+
 
 import json
 import os
 
+
 carpeta = os.path.dirname(os.path.abspath(__file__))
+
 
 
 def cargar(nombre_archivo):
@@ -12,6 +14,7 @@ def cargar(nombre_archivo):
     datos = json.load(archivo)
     archivo.close()
     return datos
+
 
 
 def guardar(nombre_archivo, datos):

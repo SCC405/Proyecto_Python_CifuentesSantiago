@@ -36,5 +36,24 @@
                 "tiempo": 1
             }
         ]
+    },
+    {
+        "fecha": "sa",
+        "paciente": "67",
+        "medico_email": "7@acmeclinic.com",
+        "medico_nombres": "7",
+        "medico_apellidos": "7",
+        "sintomas": [
+            "ajo"
+        ],
+        "diagnostico": "ajo ajo",
+        "medicamentos": [
+            {
+                "medicamento": "ajo",
+                "cantidad": 1,
+                "dosis": "1",
+                "tiempo": 1
+            }
+        ]
     }
 ]

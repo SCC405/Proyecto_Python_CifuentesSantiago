@@ -7,7 +7,8 @@
             "telefono": "555 000111",
             "email": "admin@acmeclinic.com",
             "direccion": "Cl 185 # 26 – 85",
-            "contrasena": "admin123"
+            "contrasena": "admin123",
+            "rol": "administrativo"
         },
         {
             "identificacion": "0",
@@ -16,7 +17,8 @@
             "telefono": "0",
             "email": "0@acmeclinic.com",
             "direccion": "0",
-            "contrasena": "0"
+            "contrasena": "0",
+            "rol": "medico"
         },
         {
             "identificacion": "7",
@@ -25,7 +27,8 @@
             "telefono": "7",
             "email": "7@acmeclinic.com",
             "direccion": "7",
-            "contrasena": "7"
+            "contrasena": "7",
+            "rol": "medico"
         }
     ],
     "pacientes": [
@@ -48,6 +51,16 @@
             "direccion": "9",
             "genero": "9",
             "estado_civil": "9"
+        },
+        {
+            "identificacion": "67",
+            "nombres": "sa",
+            "apellidos": "sa",
+            "telefono": "67",
+            "email": "sa",
+            "direccion": "sa",
+            "genero": "sa",
+            "estado_civil": "sa"
         }
     ]
 }
